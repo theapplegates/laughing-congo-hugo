@@ -107,7 +107,7 @@ function fetchJSON(path, callback) {
 
 function buildIndex() {
   var baseURL = wrapper.getAttribute("data-url");
-  fetchJSON(baseURL + "index.json", function (data) {
+  fetchJSON(baseURL + "/index.json", function (data) {
     var options = {
       shouldSort: true,
       ignoreLocation: true,
